@@ -3,8 +3,15 @@
 }
 
 body {
-  background-color: #474e5d;
-  font-family: Helvetica, sans-serif;
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
 }
 
 /* The actual timeline (the vertical ruler) */
@@ -130,4 +137,5 @@ body {
   .right {
   left: 0%;
   }
+
 }
